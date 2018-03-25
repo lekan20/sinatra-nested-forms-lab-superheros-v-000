@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/' do
-      binding.pry
+      # binding.pry
       erb :team
     end
 
